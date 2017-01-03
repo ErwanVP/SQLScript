@@ -46,7 +46,7 @@ EXECUTE msdb.dbo.sysmail_add_profileaccount_sp
     @sequence_number = '2';
 
 -- Grant access to the profile to all msdb database users
--- Grant access to the profile to all msdb database users
+
 EXECUTE msdb.dbo.sysmail_add_principalprofile_sp
     @profile_name = 'test@test.fr',
     @principal_name = 'public',
